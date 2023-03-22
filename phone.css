@@ -1,0 +1,12 @@
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#headAndBody .images img {
+  height: 300px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
