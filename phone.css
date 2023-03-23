@@ -1,8 +1,27 @@
 footer ul {
   display: flex;
+  flex-direction: column;
+}
+.navbar {
+  flex-direction: column;
+}
+.navbar nav {
+  flex-direction: column;
+}
+.navbar ul {
+  flex-direction: column;
+}
+.navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  padding: 15px 15px;
+}
+#headAndBody .images {
   flex-wrap: wrap;
+  justify-content: center;
 }
 #headAndBody .images img {
+  display: flex;
   height: 300px;
   margin: auto;
   width: 300px;
