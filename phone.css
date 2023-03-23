@@ -1,6 +1,15 @@
-footer ul {
+footer {
   display: flex;
   flex-direction: column;
+  height: 30vh;
+}
+footer .socialLinks ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .socialLinks ul li {
+  padding: 5px 5px;
+  margin: 15px 15px;
 }
 .navbar {
   flex-direction: column;
@@ -28,4 +37,15 @@ footer ul {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.contacUs form {
+  width: 70vw;
+}
+.contacUs {
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+#footerid {
+  height: 70vh;
 }
