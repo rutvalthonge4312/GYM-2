@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(74, 74, 74);
+  font-family: "Anton", sans-serif;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: medium;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.navbar ::before {
+  content: "";
+  /*background: url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)
+      no-repeat center center/cover;*/
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+}
+.navbar nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: center;
+  justify-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.navbar ul li {
+  list-style: none;
+
+  font-size: 1.4rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 29px;
+  padding: 5px 5px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  color: aqua;
+}
+.navbar ul li :hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease;
+}
+.navbar img {
+  height: 59px;
+  margin: 3px 6px;
+}
+.primary-heading {
+  display: block;
+  top: 110px;
+  position: relative;
+  text-align: center;
+}
+.loginform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 155px;
+
+  width: auto;
+  height: auto;
+}
+.loginform .loginbyusername {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+  padding-right: 35px;
+  margin-right: 25px;
+}
+.loginform .loginbyusername input {
+  width: 500px;
+  height: 3vh;
+  margin-top: 5px;
+  text-align: center;
+  padding: 2px 5px;
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+.loginform .loginbyusername input[type="email"] {
+  opacity: 0.6;
+}
+.loginform .loginbyusername input[type="password"] {
+  opacity: 0.6;
+}
+.loginform .loginbyusername .buttonInLogIn {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginform .loginbyusername button {
+  width: 500px;
+  height: 5vh;
+  padding: 2px 5px;
+  margin: 15px auto;
+  text-align: center;
+  background-color: rgb(101 232 225);
+  border-radius: 10px;
+  color: white;
+}
+.loginform .loginbyusername .buttonInLogIn :hover {
+  background-color: rgb(200, 200, 200);
+  color: black;
+  box-shadow: 5px 3px rgb(81, 81, 81);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+/*.loginform .loginbyusername .buttonInLogIn {
+  text-align: center;
+  position: relative;
+
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  width: 600px;
+}*/
+.loginform .logInByOtherMeathod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.loginform .logInByOtherMeathod button img {
+  height: 30px;
+  width: 30px;
+}
+.loginform .logInByOtherMeathod :hover {
+  box-shadow: 1px 1px black;
+  cursor: pointer;
+}
+.loginform .logInByOtherMeathod .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-top: 15px;
+  height: 5vh;
+  border-radius: 25px;
+}
+.loginform .logInByOtherMeathod .buttons :hover {
+  cursor: pointer;
+  box-shadow: 0px 0px white;
+}
+.sinup p {
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 110px;
+  height: 27.3vh;
+  background-color: black;
+}
+footer h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+}
+footer p {
+  color: white;
+  margin-top: 55px;
+  opacity: 0.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+}
+footer ul li {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+footer ul li a {
+  padding: 15px 15px;
+  text-decoration: none;
+  margin: 5px 5px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+}
+footer ul li :hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease;
+}
