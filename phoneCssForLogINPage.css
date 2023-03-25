@@ -1,0 +1,67 @@
+.navbar ::before {
+  content: "";
+  /*background: url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)
+      no-repeat center center/cover;*/
+  background-color: black;
+  position: absolute;
+  top: 0px;
+
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+.navbar {
+  flex-direction: column;
+}
+.navbar nav {
+  flex-direction: column;
+}
+.navbar ul {
+  flex-direction: column;
+}
+.navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  padding: 15px 15px;
+}
+.loginform {
+  justify-content: center;
+  align-items: center;
+}
+.loginform .loginbyusername {
+  width: 190px;
+}
+.loginform .loginbyusername input {
+  width: 150px;
+  padding-left: 15px;
+  position: relative;
+  left: 25px;
+}
+.loginform .loginbyusername button {
+  width: 150px;
+  position: relative;
+  left: 25px;
+}
+.loginform .logInByOtherMeathod {
+  width: 190px;
+}
+.loginform .logInByOtherMeathod .buttons {
+  width: 190px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: auto;
+}
+footer .socialLinks ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .socialLinks ul li {
+  padding: 5px 5px;
+  margin: 15px 15px;
+}
