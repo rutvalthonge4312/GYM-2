@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(74, 74, 74);
+  font-family: "Anton", sans-serif;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: medium;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.navbar ::before {
+  content: "";
+  /*background: url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)
+        no-repeat center center/cover;*/
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+}
+.navbar nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: center;
+  justify-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.navbar ul li {
+  list-style: none;
+
+  font-size: 1.4rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 29px;
+  padding: 5px 5px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  color: aqua;
+}
+.navbar ul li :hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease;
+}
+.navbar img {
+  height: 59px;
+  margin: 3px 6px;
+}
+h1 {
+  text-align: center;
+  margin: 45px auto;
+}
+.fillTheInfo ::before {
+  content: "";
+  background: url(https://cdn.pixabay.com/photo/2017/09/27/18/49/sport-2792995_960_720.jpg)
+    no-repeat center center/cover;
+
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+.fillTheInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  padding: 15px auto;
+}
+.fillTheInfo #image {
+  visibility: visible;
+}
+.fillTheInfo form {
+  display: flex;
+  flex-direction: column;
+}
+.fillTheInfo form input {
+  margin: 15px auto;
+  width: 25vw;
+  height: 6vh;
+  border-radius: 5px;
+  text-align: center;
+}
+.fillTheInfo form .inName :hover {
+  visibility: visible;
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+.fillTheInfo form .inMobile :hover {
+  visibility: visible;
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+.fillTheInfo form .inEmail :hover {
+  visibility: visible;
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+.fillTheInfo form .inMonth :hover {
+  visibility: visible;
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+.fillTheInfo form .completePayment {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.fillTheInfo form .completePayment button {
+  background-color: aqua;
+  width: 15vw;
+  height: 5vh;
+}
+.fillTheInfo form .completePayment :hover {
+  cursor: pointer;
+  border: 2px solid grey;
+  background-color: black;
+  color: white;
+}

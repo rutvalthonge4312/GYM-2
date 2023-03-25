@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sin Up</title>
+    <link rel="stylesheet" href="sinUpPageCss.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <img
+          src="pngwing.com (2).png"
+          alt="Gym Logo"
+          height="100px"
+          width="100px"
+        />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html">About Us</a>
+          </li>
+          <li>
+            <a href="index.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="logInPage.html">Log In </a>
+          </li>
+          <li>
+            <a href="#" class="active">Sin up</a>
+          </li>
+          <li>
+            <a href="#">Administor Page</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1>Join The Gym Now!</h1>
+    <div class="fillTheInfo">
+      <div id="image">
+        <img src="sinup.png" alt="Sin up Logo" height="150px" width="150px" />
+      </div>
+      <form action="gym2.php">
+        <div class="inName">
+          <input type="text" placeholder="Enter Your Name" />
+        </div>
+
+        <div class="inMobile">
+          <input
+            type="number"
+            name="userMobileNumber"
+            id="userMobileNumber"
+            placeholder="Enter Your Mobile Number"
+          />
+        </div>
+        <div class="inEmail">
+          <input
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            placeholder="Enter Your Email Id"
+          />
+        </div>
+        <div class="inMonth">
+          <input
+            type="number"
+            name="userMonth"
+            id="userMonth"
+            placeholder="Duration in Months"
+          />
+        </div>
+        <div class="completePayment">
+          <button>Complete Payment</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
