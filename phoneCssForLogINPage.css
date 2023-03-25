@@ -40,6 +40,13 @@
   position: relative;
   left: 25px;
 }
+.loginform .loginbyusername input[type="email"] {
+  font-size: 0.9rem;
+}
+.loginform .loginbyusername input[type="password"] {
+  font-size: 0.9rem;
+}
+
 .loginform .loginbyusername button {
   width: 150px;
   position: relative;
