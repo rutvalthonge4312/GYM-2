@@ -30,6 +30,7 @@
 .loginform {
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 .loginform .loginbyusername {
   width: 190px;
